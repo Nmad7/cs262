@@ -1,4 +1,4 @@
-#CS 262 - Lab 2
+# CS 262 - Lab 2
 
 Answers to the lab questions:
 * app

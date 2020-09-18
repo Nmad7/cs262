@@ -1,4 +1,4 @@
-#CS262 - Lab 1
+# CS262 - Lab 1
 
 This lab is based on expo tutorial at https://expo.io/learn
 
