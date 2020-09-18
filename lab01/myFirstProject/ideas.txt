@@ -1,0 +1,11 @@
+Community Cat Tracker
+This app's purpose would be to keep track of the location of stray and outdoor cats. Currently, it is difficult to track the status or location of cats in the Grand Rapids community.
+This is a problem for cat welfare groups such as shelters who try keep track of strays and spay and neuter all stray cats. This app could also be used by community members who wish to know where the cats in 
+the community are. It could involve having the user of the app, when they see a cat, take a picture of it and mark the location (which could use geotagging). They would also describe it and its condition.
+This would then pop up on a map in the app for all users as a new cat sighting.
+
+A meal suggestion app
+This app would somehow get the users ingredients on hand, either through image (like of their pantry/reciept) or write in, and then suggest possible recipes the user could make.
+
+
+

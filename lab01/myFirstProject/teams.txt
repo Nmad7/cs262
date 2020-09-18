@@ -1,0 +1,15 @@
+Demographics
+a.senior
+b.BCS
+c.CS112 = A , CS212 = A-
+Technical
+a. No
+b. I have used just used GitHub for hosting a website, my projects, and as a means of turning in assignments in CS344
+c. I would like to work on that cat tracker app from my ideas.txt which would be fun but I would also be open to many different types of projects.
+Personality
+a. 	Openness 79
+	Conscientiousness 65
+	Extraversion 35
+	Agreeableness 48
+	Neuroticism 56
+b. No preference
