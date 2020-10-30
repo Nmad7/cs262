@@ -1,3 +1,5 @@
-# CS 262 - Lab 8
+# CS 262 - Lab 9
 
-This lab exercise is based on sample Monopoly database from kvlinden's CS 262 [lab 7](https://cs.calvin.edu/courses/cs/262/kvlinden/07is/lab.html).
+This lab exercise is based on kvlinden's CS 262 [sample Monopoly database](https://github.com/calvin-cs262-organization/monopoly-service). My lab is deployed here:
+
+https://cs262-lab9.herokuapp.com/
