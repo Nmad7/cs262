@@ -64,7 +64,7 @@ function readHelloMessage(req, res) {
 
 //homework3 function
 function readOngoing(req, res, next) {
-    db.many("SELECT * FROM Player p INNER JOIN PlayerGame pg ON p.id = pg.playerID INNER JOIN Game g ON g.ID = pg.gameID WHERE ongoing = true; ")
+    db.many("SELECT * FROM Game g INNER JOIN PlayerGame pg ON g.id = pg.gameid INNER JOIN Player p ON p.id = pg.playerid WHERE ongoing = true")
         .then(data => {
             res.send(data);
         })
