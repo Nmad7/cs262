@@ -19,7 +19,7 @@ export default function HomeStack({ navigation }) {
                 }}
             />
             <Stack.Screen
-                name="PlayerDetails"
+                name="GameDetails"
                 component={GameDetails}
                 options={{ title: 'Player Details' }}
             />

@@ -11,9 +11,9 @@ export default function GameDetails({ route, navigation }) {
                 <Text>ID: {route.params.playerid}</Text>
                 <Text>Email Address: {route.params.emailaddress}</Text>
                 <Text>Name: {route.params.name}</Text>
-                <Text>Game ID: {route.params.gameID}</Text>
                 <Text>Score: {route.params.score}</Text>
                 <Text>Cash: {route.params.cash}</Text>
+                <Text>Currently in game number {route.params.gameid}</Text>
             </Card>
         </View>
     );
