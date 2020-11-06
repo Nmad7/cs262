@@ -3,7 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Header from '../shared/header';
 import Home from '../screens/home';
-import ReviewDetails from '../screens/reviewDetails';
+import GameDetails from '../screens/gameDetails';
 
 const Stack = createStackNavigator();
 export default function HomeStack({ navigation }) {
@@ -19,9 +19,9 @@ export default function HomeStack({ navigation }) {
                 }}
             />
             <Stack.Screen
-                name="ReviewDetails"
-                component={ReviewDetails}
-                options={{ title: 'Review Details' }}
+                name="PlayerDetails"
+                component={GameDetails}
+                options={{ title: 'Player Details' }}
             />
         </Stack.Navigator>
     );

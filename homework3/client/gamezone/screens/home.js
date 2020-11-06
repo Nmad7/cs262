@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://cs262-lab9.herokuapp.com/players')
+        fetch('https://cs262-lab9.herokuapp.com/inProgress')
             .then((response) => response.json())
             .then((json) => setData(json))
             .catch((error) => console.error(error))
@@ -17,11 +17,12 @@ export default function Home({ navigation }) {
 
     return (
         <View style={globalStyles.container}>
+            <Text>In progress players</Text>
             {isLoading ? <ActivityIndicator /> : (
-                <FlatList data={data} keyExtractor={({ id }, index) => id.toString()} renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
+                <FlatList data={data} keyExtractor={({ playerid }, index) => playerid.toString()} renderItem={({ item }) => (
+                    <TouchableOpacity onPress={() => navigation.navigate('GameDetails', item)}>
                         <Card>
-                            <Text style={globalStyles.titleText}>{item.emailaddress}</Text>
+                            <Text style={globalStyles.titleText}>Game started at {item.emailaddress}</Text>
                         </Card>
                     </TouchableOpacity>
                 )}
