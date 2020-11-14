@@ -1,0 +1,16 @@
+# CS 262 - Lab 11
+
+I used the Prettier extension for VSCode with ESLint for code suggestions. I reviewed the following suggestions in cusstomize.js in the team project client.
+
+
+## Accepted
+- Switched all doublequotes to single quotes unless escaping
+- Deleted unused variables
+- Added a space after // in comments
+- Switched any let assignments to const if they are not reassigned
+- Indentation alterations 
+
+
+## Rejected
+- ESLint by default wants unneccessary semicolons removed, google javascript style says they should be kept
+- Some formatting changes made to JSX made parts harder to read in my opinion
